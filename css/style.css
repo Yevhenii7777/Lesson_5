@@ -60,6 +60,36 @@ h1 {
 	text-shadow: 20px 10px 8px rgb(43, 172, 10), -10px -10px 10px rgb(10, 3, 3);
 	letter-spacing: 8px;
 }
+h2 {
+	font-family: "Roboto";
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(16, 5, 54);
+	text-align: left;
+	text-shadow: 20px 10px 8px rgb(29, 172, 10);
+	}
+h3 {
+	font-family: "Roboto";
+	font-size: 15px;
+	font-weight: 700;
+	color: rgba(11, 54, 5, 1);
+	text-align: left;
+	text-shadow: 10px 10px 3px rgb(122, 12, 12)
+}
+h4 {
+	font-family: "Roboto";
+	font-size: 12px;
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: underline;
+	color: rgba(11, 54, 5, 1);
+	text-align: left;
+	text-shadow: 10px 10px 3px rgb(122, 12, 12)
+}
+h4 ~ p {
+	color: #7A956B;
+
+}
 h1 > a> span {
 	text-transform: uppercase;
 }
@@ -67,31 +97,35 @@ h1 > a> span {
 a.link {
 	color: rgb(127, 61, 235);
 }
-div.image-aasho{
+div.image-aasho,
+div.image-history
+{
 	width: 302px;
 	margin-top: 10px;
 font-size: 10px;
 }
-div.image-history{
-	width: 302px;
+div.image-building, 
+div.image-shop{
+	width: 400px;
 	margin-top: 10px;
-font-size: 10px;
+font-size: 12px;
+text-align: center;
+letter-spacing: 1px;
 }
-.roadimage>div.text{
+.roadimage>div.text,
+.history>div.text,
+.building>div.text {
 width: 1100px;
 margin-right: 10px;
 margin-bottom: 20px;
 }
-.history>div.text{
-	width: 1100px;
-	margin-right: 10px;
-	margin-bottom: 20px;
-	}
 .roadimage>div,
-.history>div{
-	display: inline-block;
+.history>div,
+
+.building>div.text,.buildingshop{
+display: inline-block;
 }
-div.content{
+div.content {
 width: 385px;
 background-color: rgb(248,249,250);
 
@@ -316,13 +350,13 @@ border-box - значення розмірів враховують відсту
 */
 
 
-.block {
+/* .block { 
 	background-color: #77608d;
 }
 .inline {
 	background-color: #7A956B;
 }
-
+*/
 /* Відступи */
 /* Відступи неочикувано працюють для рядкових об'єкти */
 
