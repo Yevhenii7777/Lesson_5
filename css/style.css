@@ -42,7 +42,7 @@ body{
 
 }
 .header div.header1 {
-	text-align: right
+	text-align: right;
 }
 .header div>div{
 	width: auto; 
@@ -74,7 +74,7 @@ h3 {
 	font-weight: 700;
 	color: rgba(11, 54, 5, 1);
 	text-align: left;
-	text-shadow: 10px 10px 3px rgb(122, 12, 12)
+	text-shadow: 10px 10px 3px rgb(122, 12, 12);
 }
 h4 {
 	font-family: "Roboto";
@@ -84,7 +84,7 @@ h4 {
 	text-decoration: underline;
 	color: rgba(11, 54, 5, 1);
 	text-align: left;
-	text-shadow: 10px 10px 3px rgb(122, 12, 12)
+	text-shadow: 10px 10px 3px rgb(122, 12, 12);
 }
 h4 ~ p {
 	color: #7A956B;
@@ -121,8 +121,7 @@ margin-bottom: 20px;
 }
 .roadimage>div,
 .history>div,
-
-.building>div.text,.buildingshop{
+.building>div.text,.buildingshop {
 display: inline-block;
 }
 div.content {
